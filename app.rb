@@ -6,5 +6,8 @@ class App < Sinatra::Base
     enable :sessions
     set :session_secret, 'catalano'
   end
-  
+
+  get '/' do
+    erb :index
+
 end
