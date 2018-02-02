@@ -1,5 +1,4 @@
 require_relative 'config/environment'
-binding.pry
 
 class App < Sinatra::Base
 
